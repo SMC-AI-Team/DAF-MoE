@@ -1,0 +1,6 @@
+colsample_bylevel: 0.5397318752170392
+learning_rate: 0.018243005388339208
+max_depth: 6
+min_data_in_leaf: 32
+n_estimators: 1375
+subsample: 0.6542573820200335

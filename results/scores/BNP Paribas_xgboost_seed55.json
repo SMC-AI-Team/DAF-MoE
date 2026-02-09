@@ -1,0 +1,21 @@
+{
+    "dataset": "BNP Paribas",
+    "model": "xgboost",
+    "seed": 55,
+    "metrics": {
+        "acc": 0.7822093938598793,
+        "auprc": 0.9093196149517662,
+        "auroc": 0.7665060761751558,
+        "train_time": 14.628214836120605,
+        "inference_time": 0.07616662979125977
+    },
+    "config": {
+        "colsample_bytree": 0.6790432161208477,
+        "gamma": 4.732497196619989e-05,
+        "learning_rate": 0.022876095295611295,
+        "max_depth": 6,
+        "min_child_weight": 1,
+        "n_estimators": 2000,
+        "subsample": 0.9992459769403464
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "dataset": "Higgs small",
+    "model": "catboost",
+    "seed": 54,
+    "metrics": {
+        "acc": 0.7280979092299847,
+        "auprc": 0.8268955625924082,
+        "auroc": 0.8111089460655709,
+        "train_time": 74.66236424446106,
+        "inference_time": 0.07027435302734375
+    },
+    "config": {
+        "colsample_bylevel": 0.8269088375593031,
+        "learning_rate": 0.03101300902825811,
+        "max_depth": 10,
+        "min_data_in_leaf": 39,
+        "n_estimators": 1106,
+        "subsample": 0.7907251929750365
+    }
+}

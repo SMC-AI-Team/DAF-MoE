@@ -1,0 +1,18 @@
+{
+    "dataset": "California Housing",
+    "model": "catboost",
+    "seed": 50,
+    "metrics": {
+        "rmse": 0.4317880495561723,
+        "train_time": 12.045960664749146,
+        "inference_time": 0.012667655944824219
+    },
+    "config": {
+        "colsample_bylevel": 0.5924285336675056,
+        "learning_rate": 0.08987773252482394,
+        "max_depth": 7,
+        "min_data_in_leaf": 18,
+        "n_estimators": 1661,
+        "subsample": 0.9668954203195427
+    }
+}

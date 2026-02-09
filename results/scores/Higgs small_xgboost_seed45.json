@@ -1,0 +1,21 @@
+{
+    "dataset": "Higgs small",
+    "model": "xgboost",
+    "seed": 45,
+    "metrics": {
+        "acc": 0.7356450790413055,
+        "auprc": 0.8339797492263996,
+        "auroc": 0.814753214445618,
+        "train_time": 16.280449151992798,
+        "inference_time": 0.09158444404602051
+    },
+    "config": {
+        "colsample_bytree": 0.5738662566147347,
+        "gamma": 3.549007545581961e-05,
+        "learning_rate": 0.017337912499797985,
+        "max_depth": 8,
+        "min_child_weight": 8,
+        "n_estimators": 1668,
+        "subsample": 0.7705440158582972
+    }
+}

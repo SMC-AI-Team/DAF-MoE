@@ -1,0 +1,20 @@
+{
+    "dataset": "MIMIC-IV Mortality",
+    "model": "catboost",
+    "seed": 57,
+    "metrics": {
+        "acc": 0.902286682193521,
+        "auprc": 0.55239835631691,
+        "auroc": 0.8592994688319764,
+        "train_time": 13.312841415405273,
+        "inference_time": 0.00782012939453125
+    },
+    "config": {
+        "colsample_bylevel": 0.7002877867465094,
+        "learning_rate": 0.03935011369343337,
+        "max_depth": 7,
+        "min_data_in_leaf": 49,
+        "n_estimators": 1801,
+        "subsample": 0.8017168000637347
+    }
+}

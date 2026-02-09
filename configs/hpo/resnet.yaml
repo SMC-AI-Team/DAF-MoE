@@ -1,0 +1,35 @@
+# Aligned with FT-Transformer Optimization
+# [Shared Structure equivalent]
+n_layers: # blocks
+  type: "int"
+  low: 1
+  high: 8 # ResNets are generally lighter than Transformers even with deeper stacks, so a slightly larger depth is allowed (alternatively, fixing it to 4 is also acceptable)
+
+d_token: # Width
+  type: "int"
+  low: 64 # Very small ResNets tend to underperform, so only the lower bound is adjusted (the upper bound is kept unchanged)
+  high: 384
+  step: 16
+
+d_hidden_factor: # ResNet counterpart of the d_ff concept
+  type: "float"
+  low: 1.0
+  high: 4.0
+
+# [Shared Optimization]
+learning_rate:
+  type: "float"
+  low: 3e-5 # Unified with the FT standard
+  high: 1e-3
+  log: true
+
+weight_decay:
+  type: "float"
+  low: 1e-4 # Unified with the FT standard
+  high: 1e-1
+  log: true
+
+dropout:
+  type: "float"
+  low: 0.0
+  high: 0.5

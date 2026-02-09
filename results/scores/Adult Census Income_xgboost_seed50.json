@@ -1,0 +1,21 @@
+{
+    "dataset": "Adult Census Income",
+    "model": "xgboost",
+    "seed": 50,
+    "metrics": {
+        "acc": 0.8659160696008188,
+        "auprc": 0.8146763480737426,
+        "auroc": 0.9222277419634051,
+        "train_time": 0.7601542472839355,
+        "inference_time": 0.009166955947875977
+    },
+    "config": {
+        "colsample_bytree": 0.6093941997991286,
+        "gamma": 0.00015491522291756653,
+        "learning_rate": 0.15688225878527828,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "n_estimators": 1265,
+        "subsample": 0.9968526329456286
+    }
+}

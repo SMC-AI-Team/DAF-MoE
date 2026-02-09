@@ -1,0 +1,62 @@
+# Aligned with FT-Transformer Standard
+# [Shared Structure]
+n_layers:
+  type: "int"
+  low: 1
+  high: 4
+
+d_emb: # Same range as FT's d_token
+  type: "int"
+  low: 16
+  high: 384
+  step: 16
+
+d_ff_factor: # Same range as FT's d_token
+  type: "float"
+  low: 0.66
+  high: 2.66
+
+# [Shared Optimization]
+learning_rate:
+  type: "float"
+  low: 3e-5
+  high: 1e-3
+  log: true
+
+weight_decay:
+  type: "float"
+  low: 1e-4
+  high: 1e-1
+  log: true
+
+# [Regularization] - Conforms to FT's dropout range
+dropout: # Main dropout (recommended to be shared across attention/FFN)
+  type: "float"
+  low: 0.0
+  high: 0.5
+
+# [MoE Specific] -  DAF-MoE–specific parameters only
+n_experts:
+  type: "categorical"
+  choices: [4, 8]
+
+lambda_spec:
+  type: "float"
+  low: 0.01
+  high: 0.5
+
+lambda_repel:
+  type: "float"
+  low: 0.01
+  high: 0.1
+  log: true
+
+lambda_bal:
+  type: "float"
+  low: 0.01
+  high: 0.1
+  log: true
+
+mu_init_strategy:
+  type: "categorical"
+  choices: ["linspace", "random", "normal"] #  Must exactly match the strings used in the code!

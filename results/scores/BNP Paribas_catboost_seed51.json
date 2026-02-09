@@ -1,0 +1,20 @@
+{
+    "dataset": "BNP Paribas",
+    "model": "catboost",
+    "seed": 51,
+    "metrics": {
+        "acc": 0.7861453686696405,
+        "auprc": 0.9071050833947112,
+        "auroc": 0.76205796578082,
+        "train_time": 178.72797918319702,
+        "inference_time": 0.058386802673339844
+    },
+    "config": {
+        "colsample_bylevel": 0.8506378873419668,
+        "learning_rate": 0.023743889438112675,
+        "max_depth": 10,
+        "min_data_in_leaf": 23,
+        "n_estimators": 1809,
+        "subsample": 0.5563149115741901
+    }
+}

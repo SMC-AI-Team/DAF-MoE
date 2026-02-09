@@ -1,0 +1,20 @@
+{
+    "dataset": "Adult Census Income",
+    "model": "catboost",
+    "seed": 54,
+    "metrics": {
+        "acc": 0.8820880245649949,
+        "auprc": 0.8422703244383013,
+        "auroc": 0.9326762820660386,
+        "train_time": 8.436837196350098,
+        "inference_time": 0.023286104202270508
+    },
+    "config": {
+        "colsample_bylevel": 0.9186536013075917,
+        "learning_rate": 0.040631083639141474,
+        "max_depth": 6,
+        "min_data_in_leaf": 6,
+        "n_estimators": 640,
+        "subsample": 0.9643800455402485
+    }
+}

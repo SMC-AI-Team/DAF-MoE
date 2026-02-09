@@ -1,0 +1,21 @@
+{
+    "dataset": "MIMIC-III Mortality",
+    "model": "xgboost",
+    "seed": 57,
+    "metrics": {
+        "acc": 0.9111147221319467,
+        "auprc": 0.5368742264592153,
+        "auroc": 0.8510942134302136,
+        "train_time": 4.26243782043457,
+        "inference_time": 0.03323769569396973
+    },
+    "config": {
+        "colsample_bytree": 0.7841243894199137,
+        "gamma": 8.35550947274955e-05,
+        "learning_rate": 0.019732618598476494,
+        "max_depth": 8,
+        "min_child_weight": 7,
+        "n_estimators": 1209,
+        "subsample": 0.6344502111069136
+    }
+}

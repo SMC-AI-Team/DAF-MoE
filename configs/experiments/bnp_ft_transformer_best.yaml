@@ -1,0 +1,15 @@
+attention_dropout: 0.346674373051811
+batch_size: 512
+d_ff_factor: 1.5932297010992813
+d_token: 384
+data_config_path: configs/datasets/bnp.yaml
+dataset_name: bnp
+ffn_dropout: 0.17527141729671336
+learning_rate: 3.082037213647568e-05
+model_name: ft_transformer
+n_layers: 2
+optimize_metric: acc
+out_dim: 1
+residual_dropout: 0.049345304569777
+task_type: classification
+weight_decay: 0.011833076335604277
