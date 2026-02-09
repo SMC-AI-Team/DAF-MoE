@@ -1,7 +1,3 @@
-Here is the updated **README.md**. I have refined the **Introduction**, **Data Preparation**, and **Analysis & Evaluation** sections to perfectly match your 5 new analysis scripts and their corresponding Tables/Figures in the paper.
-
----
-
 # DAF-MoE: Distribution-Aware Feature-level Mixture of Experts
 
 > **Official PyTorch Implementation**
