@@ -30,7 +30,7 @@ Since this repository is provided for anonymous review, please **download the so
 1. Open your terminal and navigate to the extracted project root:
 
 ```bash
-cd DAF-MoE-FBA4 
+cd DAF-MoE-1EF0
 
 ```
 
