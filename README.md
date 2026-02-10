@@ -1,7 +1,7 @@
 # DAF-MoE: Distribution-Aware Feature-level Mixture of Experts
 
 > **Official PyTorch Implementation**
-> *This repository contains the code for the paper "DAF-MoE: Robust Tabular Deep Learning via Distribution-Aware Routing".*
+> *This repository contains the code for the paper "DAF-MoE: Distribution-Aware Feature-level Mixture of Experts for Tabular Data".*
 
 ## 📌 Introduction
 
