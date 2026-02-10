@@ -1,5 +1,5 @@
 # ==========================
-# 1. System & IDE (기본)
+# 1. System & IDE
 # ==========================
 .DS_Store
 Thumbs.db
@@ -22,14 +22,12 @@ env/
 daf_moe.egg-info/
 
 # ==========================
-# 3. Data (중요: 절대 업로드 금지)
+# 3. Data (Important: Do Not Upload)
 # ==========================
-# 폴더 구조는 유지하되 파일은 무시 (.gitkeep만 허용)
 data/*
 !data/.gitkeep
 physionet.org/
 
-# 혹시 모를 대용량 파일 차단
 *.csv
 *.arff
 *.gz
@@ -38,7 +36,7 @@ physionet.org/
 *.rar
 
 # ==========================
-# 4. Model Checkpoints (용량 제한)
+# 4. Model Checkpoints 
 # ==========================
 checkpoints/
 *.pth
@@ -57,7 +55,6 @@ catboost_info/
 # ==========================
 # 6. Optimization & Tuning
 # ==========================
-# HPO DB 및 임시 결과
 *.db
 results/tuning/
 results/temp_hpo/
@@ -69,10 +66,8 @@ configs/experiments_notyet/
 configs/temp_hpo/
 
 # ==========================
-# 8. Results (선택적 허용)
+# 8. Results 
 # ==========================
-# results 폴더는 허용하되, 불필요한 것만 제외
-# (Analysis CSV와 Scores JSON은 증거 자료로 유지)
 results/analysis_expert/*.pdf
 results/summarize_performance/*.pdf
 results/summarize_performance/*.csv
