@@ -22,7 +22,7 @@ env/
 daf_moe.egg-info/
 
 # ==========================
-# 3. Data (Important: Do Not Upload)
+# 3. Data 
 # ==========================
 data/*
 !data/.gitkeep
