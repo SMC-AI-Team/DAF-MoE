@@ -205,7 +205,3 @@ DAF-MoE/
 └── setup.py                # Package installation script
 
 ```
-
-## 📜 License
-
-This project is licensed under the MIT License.
